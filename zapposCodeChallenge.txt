@@ -1,0 +1,233 @@
+Your goal is to write a program to solve a series of puzzles.
+The first line of each input contains the number of rows and columns in the puzzle.
+Each puzzle contains a board with several pairs of matching colors, which are each represented by a letter.
+Blank spaces are represented with the '.' character.
+The goal is to connect each matching pair of colors with a single path, leaving no blank spaces on the board.
+There may be more than one solution to a given puzzle.
+
+To receive credit, you must solve all 20 of the input puzzles.  Your program must also be able to solve arbitrary
+6x6 puzzles that you have not seen yet.
+
+Sample Input:
+6 6
+.....o
+......
+.yr...
+...g.y
+.g.orb
+...b..
+
+6 6
+...b.y
+...g.b
+..ry..
+......
+...gr.
+......
+
+6 6
+.....o
+......
+.yr...
+o..g..
+g..br.
+b..y..
+
+6 6
+...ry.
+.g..g.
+......
+b.br..
+y.....
+......
+
+Sample Output:
+oooooo
+oyyyyy
+oyrrry
+ogggry
+ogoorb
+ooobbb
+
+bbbbyy
+bgggyb
+bgryyb
+bgrrrb
+bgggrb
+bbbbbb
+
+oooooo
+oyyyyy
+oyrrry
+ogggry
+ggbbry
+bbbyyy
+
+bbbryy
+bgbrgy
+bgbrgy
+bgbrgy
+yggggy
+yyyyyy
+
+
+Input:
+6 6
+......
+....b.
+..ryog
+gb....
+r...y.
+o.....
+
+6 6
+.....g
+......
+b.bo..
+.....g
+....ry
+ory...
+
+6 6
+......
+......
+...y..
+...r..
+.r.g..
+.gyb.b
+
+6 6
+.....y
+...rbg
+..b...
+..g...
+......
+....yr
+
+6 6
+g.y...
+r..b..
+.rgo..
+......
+......
+oby...
+
+6 6
+...rlo
+.y....
+r.l.g.
+y.g...
+o....b
+b.....
+
+6 6
+......
+....b.
+..y...
+...y.r
+.g.bg.
+r.....
+
+6 6
+m.g..g
+r.y...
+....m.
+.ol.by
+.....b
+.ro..l
+
+6 6
+......
+.o.oy.
+.g.r..
+...y..
+...rb.
+b....g
+
+6 6
+...lb.
+....r.
+.ro.o.
+......
+..y..y
+l.bg.g
+
+6 6
+o.y...
+b...o.
+.g....
+...r..
+..g...
+b.ry..
+
+6 6
+.....r
+......
+..yb..
+...g..
+.b..y.
+gr....
+
+6 6
+....bl
+.o....
+.r..b.
+gyoryl
+.....g
+......
+
+6 6
+..orl.
+.b....
+...b..
+g.r..l
+.oy...
+....gy
+
+6 6
+.b..oy
+...ry.
+....gl
+..rg..
+..ol..
+.....b
+
+6 6
+...y..
+.b....
+r..br.
+...yg.
+.g....
+......
+
+6 6
+g.....
+.r....
+.byg..
+......
+...y..
+rb....
+
+6 6
+g.....
+.....y
+...o..
+.yb.o.
+.br.r.
+g.....
+
+6 6
+...gbg
+.o....
+...r..
+..b..y
+.or...
+.....y
+
+6 6
+g.....
+......
+......
+bryr..
+...b..
+yg....
